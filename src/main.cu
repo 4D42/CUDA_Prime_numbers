@@ -14,7 +14,8 @@ __global__ void isprime(int *test_number, int *boolprime){
 int main(void){
   printf("Finding prime numbers using CUDA\n");
 
-  int primelesserthan = 3000;
+  int primelesserthan = 3000;  // Will test every number before
+    
   int maxthreads = 1024;
   int Nb_blocks;
   int Nb_threads;
