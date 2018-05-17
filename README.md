@@ -1,2 +1,5 @@
 # CUDA_Prime_numbers
-CUDA code that find the Nth first Primes
+
+Just a little CUDA code that find the Nth first prime Numbers. 
+
+Use the run.sh (bash script) to compile and run the program.
